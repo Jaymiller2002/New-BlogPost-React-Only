@@ -1,7 +1,10 @@
+import { Link } from "react-router-dom"
+
 function Header() {
   return (
     <div>
-      Menu
+     <button><Link to="/Blogpost1">Blog-1</Link></button>
+     <button><Link to="/Blogpost2">Blog-2</Link></button>
     </div>
   )
 }
