@@ -10,8 +10,8 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
-import About from './About'
-import App from './App'
+import Blogpost2 from './Blogpost2'
+import Blogpost1 from './Blogpost1'
 import ErrorPage from './ErrorPage'
 import Header from './Header'
 import Footer from './Footer'
@@ -38,12 +38,12 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <App />,
+        element: <Blogpost1 />,
         errorElement: <ErrorPage />
       },
       {
-        path: '/about',
-        element: <About />
+        path: '/Blogpost2',
+        element: <Blogpost2 />
       },
     ]
   }
