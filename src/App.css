@@ -44,3 +44,11 @@ body {
   cursor: pointer;
   color: red;
 }
+
+.rounded-square {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
