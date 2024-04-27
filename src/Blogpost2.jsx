@@ -3,7 +3,7 @@ import Destiny2 from './assets/Destiny2.jpeg'
 import { Card } from "react-bootstrap"
 
 
-function About() {
+function Blogpost2 () {
   return (
     <div>
       <div>
@@ -39,4 +39,4 @@ function About() {
 }
 
 
-export default About
+export default Blogpost2

@@ -10,11 +10,14 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
+import Blogpost4 from './Blogpost4'
+import Blogpost3 from './Blogpost3'
 import Blogpost2 from './Blogpost2'
 import Blogpost1 from './Blogpost1'
 import ErrorPage from './ErrorPage'
 import Header from './Header'
 import Footer from './Footer'
+import ContactCard from './ContactCard'
 
 const site = import.meta.env.BASE_URL
 
@@ -45,6 +48,18 @@ const router = createBrowserRouter([
         path: '/Blogpost2',
         element: <Blogpost2 />
       },
+      {
+        path: '/Blogpost3',
+        element: <Blogpost3 />
+      },
+      {
+        path: '/Blogpost4',
+        element: <Blogpost4 />
+      },
+      {
+        path: '/ContactCard',
+        element: <ContactCard />
+      }
     ]
   }
 ], {
