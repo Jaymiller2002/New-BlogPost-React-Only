@@ -45,6 +45,21 @@ body {
   color: red;
 }
 
+.card img {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: 180px;
+  top: 0;
+  bottom: 0;
+  transition: all 0.4s ease;
+}
+
+.card img:hover {
+  transform: scale(1.2);
+  margin-bottom: 5px;
+}
+
 .rounded-square {
   width: 100px;
   height: 100px;
@@ -54,17 +69,39 @@ body {
 }
 
 .icon-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
   justify-content: center;
-  flex-wrap: wrap; 
+  gap: none;
 }
 
 .icon-container a {
   margin: 40px;
-  font-size: 30px; 
+  font-size: 40px; 
 }
 
 .card-container {
   display: flex;
   justify-content: center;
+}
+
+.card-container ul {
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.card-container a {
+  text-decoration: none;
+  color: #741bb8;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.4s ease;
+}
+
+.card-container a:hover {
+  color: rgb(255, 111, 0);
+  transform: scale(1.2);
 }

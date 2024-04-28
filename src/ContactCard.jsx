@@ -1,12 +1,13 @@
 import { Card } from "react-bootstrap"
 import { Link } from "react-router-dom"
+import Image from './assets/Blogpic.jpeg'
 
 function ContactCard () {
   return (
     <div class="card-container">
         <Card>
         <div className="photo">
-            <img src={""}/>
+            <img src={Image}/>
         </div>
         <ul>
             <li><b>Jay Miller</b></li>
