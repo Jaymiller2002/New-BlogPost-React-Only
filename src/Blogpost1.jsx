@@ -2,7 +2,7 @@ import { Card } from "react-bootstrap"
 
 const Title = () => {
   return (
-    <h1>
+    <h1 style={{color: "white"}}>
       Jay Miller's Blog Journey
     </h1>
   )
