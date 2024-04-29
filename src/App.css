@@ -7,7 +7,10 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: linear-gradient(to top, rgb(98, 49, 210), rgb(202, 97, 48));
+  /*background-image: linear-gradient(to top, rgb(98, 49, 210), rgb(202, 97, 48));*/
+  background-image: url(https://pics.craiyon.com/2023-10-03/719a8d4f87f54316bf43bbe26caa5449.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #root {
   display: flex;
@@ -64,11 +67,8 @@ body {
 }
 
 .rounded-square {
-  width: 100px;
-  height: 100px;
   margin-right: 10px;
   border-radius: 8px;
-  transition: all 0.3s ease;
 }
 
 .icon-container {

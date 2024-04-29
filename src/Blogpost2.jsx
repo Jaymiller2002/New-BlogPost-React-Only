@@ -14,8 +14,16 @@ function Blogpost2 () {
         <p>I'm eager to get a better understanding of how git, gitpod, github and vscode work together to properly make things function correctly.</p>
         <h2>What is something about you that can only be learned by reading this blog?</h2>
         <p>My name is Jay Miller, I am 21 years old and live in Lexington, KY. Two things you'll learn about me from reading this blog post are that I love to play basketball and play video games.</p>
-        <img className="rounded-square" src={Basketball}/>
-        <img className="rounded-square" src={Destiny2}/>
+        <img className="rounded-square" style={{
+          marginRight: "10px",
+          borderRadius: "8px",
+          position: "relative",
+          left: "50px"}} src={Basketball}/>
+        <img className="rounded-square" style={{
+          marginRight: "10px",
+          borderRadius: "8px",
+          position: "relative",
+          left: "50px"}} src={Destiny2}/>
         <h2>What is something you wish you could do but currently do not have the coding skills to accomplish?</h2>
         <p>I wish I could explain my coding process more and actually be able to go over my code and explain what I did rather than what I did on our last demo day.</p>
         <h2>What are you struggling with?</h2>
