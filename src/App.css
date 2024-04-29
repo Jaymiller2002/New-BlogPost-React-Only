@@ -26,8 +26,10 @@ body {
   border: none;
   border-radius: 8px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
-  height: 500px;
+  height: 400px;
   overflow-y: auto;
+  margin: 10px;
+  background: linear-gradient(to bottom right, #ac571f, #b3b02c)
 }
 
 .card h2 {
@@ -42,14 +44,14 @@ body {
 
 .card p:hover {
   cursor: pointer;
-  color: red;
+  color: bold rgb(0, 0, 0);
 }
 
 .card img {
   height: 100px;
   width: 100px;
-  position: relative;
-  left: 180px;
+  position: sticky;
+  left: 95px;
   top: 0;
   bottom: 0;
   transition: all 0.4s ease;
@@ -73,11 +75,14 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   justify-content: center;
+  align-items: center;
   gap: none;
+  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .icon-container a {
-  margin: 40px;
+  margin: 15px;
   font-size: 40px; 
 }
 
@@ -86,22 +91,43 @@ body {
   justify-content: center;
 }
 
-.card-container ul {
+.card-container ul,
+.card-container a {
   text-align: center;
   text-decoration: none;
   list-style: none;
   color: black;
+  margin-top: 0px;
+  position: relative;
+  top: 20px;
 }
 
 .card-container a {
   text-decoration: none;
-  color: #741bb8;
+  color: #a53641;
   border-radius: 5px;
   border: none;
-  transition: all 0.4s ease;
+  transition: all 0.6s ease-in-out;
+  margin-top: auto;
 }
 
 .card-container a:hover {
-  color: rgb(255, 111, 0);
+  color: #8028c0;
   transform: scale(1.2);
+}
+
+button {
+  background-image: linear-gradient(to bottom right, #ac571f, #b3b02c);
+  border: solid black;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+button a {
+  text-decoration: none;
+  color: Black;
+}
+
+button:hover {
+  background-image: linear-gradient(to bottom, rgb(98, 49, 210), rgb(202, 97, 48));
 }
