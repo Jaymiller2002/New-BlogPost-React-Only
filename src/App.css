@@ -25,7 +25,7 @@ body {
 .card {
   width: 300px;
   padding: 10px;
-  background-image: linear-gradient(to bottom, #e2e2e2, #ccc, #202020);
+  /*background-image: linear-gradient(to bottom, #e2e2e2, #ccc, #202020);*/
   border: none;
   border-radius: 8px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
@@ -106,15 +106,15 @@ body {
 
 .card-container a {
   text-decoration: none;
-  color: #da2d3eb6;
-  border-radius: 5px;
+  color: #6217d2b6;
+  border-radius: 10px;
   border: none;
   transition: all 0.6s ease-in-out;
   margin-top: auto;
 }
 
 .card-container a:hover {
-  color: #8028c0;
+  color: #32ffd9ea;
   transform: scale(1.2);
 }
 
