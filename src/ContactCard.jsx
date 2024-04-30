@@ -11,7 +11,7 @@ function ContactCard () {
         </div>
         <ul>
             <li><b>Jay Miller</b></li>
-            <Link to="https://github.com/Jaymiller2002?tab=repositories" style={{color: "black"}}><li>Full-Stack Developer</li>click to see projects</Link>
+            <li><b>Full-Stack Developer</b></li>
         </ul>
         <div class="icon-container">
             <Link to="https://github.com/"><i className="fa-brands fa-square-github"></i></Link>
