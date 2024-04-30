@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 function Footer() {
   // State to track if the colors are inverted
@@ -10,15 +10,8 @@ function Footer() {
     setInverted(!inverted);
   };
 
-  useEffect(() => {
-    if (inverted) {
-      document.body.style.backgroundColor = '#000'; // Set background to black when inverted
-      document.body.style.color = '#fff'; // Set text color to white when inverted
-    } else {
-      document.body.style.backgroundColor = '#fff'; // Set background to white when not inverted
-      document.body.style.color = '#000'; // Set text color to black when not inverted
-    }
-  }, [inverted]);
+  // Apply the 'invert-colors' class to the body based on the 'inverted' state
+  document.body.classList.toggle('invert-colors', inverted);
 
   return (
     <div>
