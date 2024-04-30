@@ -23,12 +23,12 @@ body {
 }
 
 .card {
-  max-width: 450px;
+  width: 300px;
   padding: 10px;
   background-image: linear-gradient(to bottom, #e2e2e2, #ccc, #202020);
   border: none;
   border-radius: 8px;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
   height: 400px;
   overflow-y: auto;
   margin: 10px;
