@@ -7,8 +7,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  /*background-image: linear-gradient(to top, rgb(98, 49, 210), rgb(202, 97, 48));*/
-  background-image: url(https://i.pinimg.com/564x/0b/3d/e6/0b3de63a79164a743d029b25185256d9.jpg);
+  background-image: radial-gradient(circle, #eb4a0b 0%, #0077ff 100%);
+  /*background-image: url(https://i.pinimg.com/564x/0b/3d/e6/0b3de63a79164a743d029b25185256d9.jpg);*/
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -134,3 +134,16 @@ button:hover {
   background-image: linear-gradient(to bottom left, #4c00ff, #22c561);
 }
 
+@media (max-width: 768px) {
+  .card {
+    width: 70%; /* Adjust width to fit smaller screens */
+    padding: 5px; /* Reduce padding for smaller screens */
+  }
+}
+
+/* Media query for screens smaller than 576px (phones) */
+@media (max-width: 576px) {
+  .card {
+    height: 50vh; /* Allow card height to adjust based on content for smaller screens */
+  }
+}
