@@ -119,7 +119,7 @@ body {
 }
 
 button {
-  background-image: linear-gradient(to bottom right, #4c00ff, #22c561);
+  background-image: linear-gradient(to bottom right, #256dc6f4, rgb(202, 97, 48));
   border: solid black;
   border-radius: 5px;
   margin-top: 5px;
@@ -131,5 +131,6 @@ button a {
 }
 
 button:hover {
-  background-image: linear-gradient(to bottom, #256dc6f4, rgb(202, 97, 48));
+  background-image: linear-gradient(to bottom left, #4c00ff, #22c561);
 }
+
