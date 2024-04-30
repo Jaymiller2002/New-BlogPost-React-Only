@@ -23,13 +23,13 @@ body {
 }
 
 .card {
-  width: 400px;
+  width: 350px;
   padding: 10px;
   /*background-image: linear-gradient(to bottom, #e2e2e2, #ccc, #202020);*/
   border: none;
   border-radius: 8px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-  height: 400px;
+  height: 450px;
   overflow-y: auto;
   margin: 10px;
   background: linear-gradient(to bottom right, #db4b1be1, #256dc6f4)
@@ -74,12 +74,10 @@ body {
   justify-content: center;
   align-items: center;
   gap: none;
-  margin-top: 20px;
   padding-top: 20px;
 }
 
 .icon-container a {
-  margin: 15px;
   font-size: 40px; 
 }
 
@@ -89,17 +87,14 @@ body {
 }
 
 .card-container ul,
+.card-container li,
 .card-container a {
   text-align: center;
   text-decoration: none;
   list-style: none;
   color: black;
-  margin-top: 0px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   margin-top: 20px;
+  display: block;
 }
 
 .card-container a {
@@ -130,20 +125,6 @@ button a {
 
 button:hover {
   background-image: linear-gradient(to bottom left, #4c00ff, #22c561);
-}
-
-@media (max-width: 768px) {
-  .card {
-    width: 70%; /* Adjust width to fit smaller screens */
-    padding: 5px; /* Reduce padding for smaller screens */
-  }
-}
-
-/* Media query for screens smaller than 576px (phones) */
-@media (max-width: 576px) {
-  .card {
-    height: 50vh; /* Allow card height to adjust based on content for smaller screens */
-  }
 }
 
 .invert-colors {
