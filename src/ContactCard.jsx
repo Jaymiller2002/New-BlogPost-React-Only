@@ -6,8 +6,8 @@ function ContactCard () {
   return (
     <div class="card-container">
         <Card>
-        <div className="photo">
-            <img src={Image}/>
+        <div className="photo" style={{ display: "flex", justifyContent: "center", alignItems: "center", marginLeft: "25px"}}>
+            <img src={Image} />
         </div>
         <ul>
             <li><b>Jay Miller</b></li>

@@ -23,7 +23,7 @@ body {
 }
 
 .card {
-  width: 300px;
+  width: 400px;
   padding: 10px;
   /*background-image: linear-gradient(to bottom, #e2e2e2, #ccc, #202020);*/
   border: none;
@@ -54,10 +54,6 @@ body {
   height: 100px;
   width: 100px;
   position: sticky;
-  left: 95px;
-  right: 5px;
-  top: 0;
-  bottom: 0;
   transition: all 0.4s ease-in-out;
 }
 
@@ -99,9 +95,11 @@ body {
   list-style: none;
   color: black;
   margin-top: 0px;
-  position: relative;
-  top: 20px;
-  right: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .card-container a {

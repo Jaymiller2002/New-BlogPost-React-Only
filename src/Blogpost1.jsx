@@ -11,7 +11,6 @@ const Title = () => {
 function Blogpost1 () {
   return (
     <div>
-    <Title />
     <Card>
     <div style={{fontFamily: "sans-serif"}}>
     <h2>What are your thoughts about the roles HTML, CSS, and JavaScript play in the process of rendering content and providing user experience?</h2>
