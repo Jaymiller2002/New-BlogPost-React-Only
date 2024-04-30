@@ -147,3 +147,12 @@ button:hover {
     height: 50vh; /* Allow card height to adjust based on content for smaller screens */
   }
 }
+
+.invert-colors {
+  filter: invert(100%);
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
