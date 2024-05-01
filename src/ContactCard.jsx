@@ -11,8 +11,6 @@ function ContactCard () {
         </div>
         <ul>
             <li><b>Jay Miller</b></li>
-            <br></br>
-            <br></br>
             <li><b>Full-Stack Developer</b></li>
         </ul>
         <div class="icon-container">
