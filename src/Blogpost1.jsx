@@ -12,7 +12,7 @@ function Blogpost1 () {
   return (
     <div>
     <Card>
-    <div style={{fontFamily: "sans-serif"}}>
+    <div>
     <h2>What are your thoughts about the roles HTML, CSS, and JavaScript play in the process of rendering content and providing user experience?</h2>
     <p>I find it extremely cool to see everything finally come together to make a fully functional page or website.</p>
     <h2>What are your thoughts on pseudocoding?</h2>

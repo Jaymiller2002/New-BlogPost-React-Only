@@ -5,7 +5,7 @@ function Blogpost3 () {
   return (
     <div>
         <Card>
-        <h1>The Power of Pseudocoding: Why Every Developer Should Master It</h1>
+        <h2>The Power of Pseudocoding: Why Every Developer Should Master It</h2>
         <p>In the fast-paced world of software development, 
             where lines of code translate into revolutionary applications and groundbreaking solutions, 
             there exists a crucial yet often underestimated tool in a developer's arsenal: pseudocoding. 
