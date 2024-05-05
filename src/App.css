@@ -7,7 +7,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: radial-gradient(circle, #eb4a0b 0%, #0077ff 100%);
+  background: rgb(255,86,28);
+  background: linear-gradient(43deg, rgb(165, 55, 18) 35%, rgb(31, 153, 177) 35%, rgb(54, 147, 163) 77%, rgb(162, 74, 41) 77%, rgb(191, 63, 20) 84%, rgb(32, 168, 196) 84%);
   /*background-image: url(https://i.pinimg.com/564x/0b/3d/e6/0b3de63a79164a743d029b25185256d9.jpg);*/
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,7 +33,7 @@ body {
   height: 450px;
   overflow-y: auto;
   margin: 10px;
-  background: linear-gradient(to bottom right, #db4b1be1, #256dc6f4)
+  background: linear-gradient(to bottom right, #f3541fe1, #2b7ee2f4)
 }
 
 .card h2 {
