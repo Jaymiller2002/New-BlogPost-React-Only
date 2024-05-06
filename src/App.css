@@ -7,8 +7,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: rgb(255,86,28);
-  background: linear-gradient(43deg, rgb(165, 55, 18) 35%, rgb(31, 153, 177) 35%, rgb(54, 147, 163) 77%, rgb(162, 74, 41) 77%, rgb(191, 63, 20) 84%, rgb(32, 168, 196) 84%);
+  background: rgb(0, 0, 0);
+  /*background: linear-gradient(43deg, rgb(165, 55, 18) 35%, rgb(31, 153, 177) 35%, rgb(54, 147, 163) 77%, rgb(162, 74, 41) 77%, rgb(191, 63, 20) 84%, rgb(32, 168, 196) 84%);*/
   /*background-image: url(https://i.pinimg.com/564x/0b/3d/e6/0b3de63a79164a743d029b25185256d9.jpg);*/
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,28 +27,33 @@ body {
   width: 450px;
   padding: 10px;
   /*background-image: linear-gradient(to bottom, #e2e2e2, #ccc, #202020);*/
-  border: none;
+  border: 2px solid white;
   border-radius: 8px;
   box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.892);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.892);
+  box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.892);
   height: 450px;
   overflow-y: auto;
-  margin: 10px;
-  background: linear-gradient(to bottom right, #f3541fe1, #2b7ee2f4)
+  top: 15px;
+  background: linear-gradient(to bottom right, #f3541fe1, #2b7ee2f4);
+  margin-top: 40px;
 }
 
 .card h2 {
   font-size: 18px;
   font-weight: 600;
+  color: white;
 }
 
 .card p {
   font-size: 14px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .card p:hover {
   cursor: pointer;
-  color: bold rgb(0, 0, 0);
+  color: bold rgb(255, 255, 255);
 }
 
 .card img {
@@ -82,10 +87,6 @@ body {
   font-size: 40px; 
 }
 
-.card-container {
-  display: flex;
-  justify-content: center;
-}
 
 .card-container ul,
 .card-container li,
@@ -93,7 +94,7 @@ body {
   text-align: center;
   text-decoration: none;
   list-style: none;
-  color: black;
+  color: rgb(255, 252, 252);
   margin-top: 20px;
   display: block;
 }
@@ -114,14 +115,16 @@ body {
 
 button {
   background-image: linear-gradient(to bottom right, #256dc6f4, rgb(202, 97, 48));
-  border: solid black;
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 5px;
-  margin-top: 5px;
+  margin-top: 40px;
+  box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.35);
+
 }
 
 button a {
   text-decoration: none;
-  color: Black;
+  color: rgb(255, 252, 252);
 }
 
 button:hover {
