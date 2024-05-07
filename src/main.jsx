@@ -19,7 +19,7 @@ import ErrorPage from './ErrorPage'
 import Header from './Header'
 import Footer from './Footer'
 import ContactCard from './ContactCard'
-import Projects from './Projects'
+
 
 const site = import.meta.env.BASE_URL
 
@@ -43,8 +43,12 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Blogpost1 />,
+        element: <ContactCard />,
         errorElement: <ErrorPage />
+      },
+      {
+        path: '/Blogpost1',
+        element: <Blogpost1 />
       },
       {
         path: '/Blogpost2',
@@ -61,14 +65,6 @@ const router = createBrowserRouter([
       {
         path: '/Blogpost5',
         element: <Blogpost5 />
-      },
-      {
-        path: '/ContactCard',
-        element: <ContactCard />
-      },
-      {
-        path: './Projects',
-        element: <Projects />
       }
     ]
   }

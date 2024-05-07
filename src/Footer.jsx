@@ -15,7 +15,7 @@ function Footer() {
 
   return (
     <div>
-      <button style={{marginBottom: "40px", color: "white"}} onClick={handleButtonClick}>Invert Colors</button>
+      <button style={{marginBottom: "60px", marginLeft: "15px", color: "white"}} onClick={handleButtonClick}>Invert Colors</button>
     </div>
   );
 }
