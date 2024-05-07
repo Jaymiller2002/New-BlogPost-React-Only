@@ -7,11 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
+    <!-- Video Container -->
+    <div id="video-container">
+      <video autoplay loop muted>
+        <source src=".mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- Background Overlay -->
+    <div id="video-overlay"></div>
+
+    <!-- React Root -->
     <div id="root"></div>
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/9e24421ae4.js" crossorigin="anonymous"></script>
-    <!-- project JavaScript -->
+    <!-- Project JavaScript -->
     <script type="module" src="./src/main.jsx"></script>
   </body>
 </html>
