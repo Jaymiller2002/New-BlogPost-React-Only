@@ -36,7 +36,7 @@ body {
   height: 450px;
   overflow-y: auto;
   top: 15px;
-  background: linear-gradient(to bottom right, #f3541fe1, #2366b9f4);
+  background: linear-gradient(to bottom right, #1d5ca9f4, #0000, #d25b33e1 );
   margin-top: 40px;
 }
 
@@ -44,11 +44,15 @@ body {
   font-size: 18px;
   font-weight: 600;
   color: white;
+  margin-top: 10px;
+  padding: 5px;
 }
 
 .card p {
   font-size: 14px;
   color: rgb(255, 255, 255);
+  margin: 15px;
+  padding: 5px;
 }
 
 .card p:hover {
