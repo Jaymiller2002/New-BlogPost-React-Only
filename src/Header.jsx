@@ -5,11 +5,11 @@ function Header() {
     <div>
         <div className="button-container">
           <button><Link to="/">Contact Me</Link></button>
-          <button><Link to="/Blogpost1">Blog-1</Link></button>
-          <button><Link to="/Blogpost2">Blog-2</Link></button>
-          <button><Link to="/Blogpost3">Blog-3</Link></button>
-          <button><Link to="/Blogpost4">Blog-4</Link></button>
-          <button><Link to="/Blogpost5">Blog-5</Link></button>
+          <button><Link to="/Blogpost1">Entry 1</Link></button>
+          <button><Link to="/Blogpost2">Entry 2</Link></button>
+          <button><Link to="/Blogpost3">Entry 3</Link></button>
+          <button><Link to="/Blogpost4">Entry 4</Link></button>
+          <button><Link to="/Blogpost5">Entry 5</Link></button>
         </div>
     </div>
   )
