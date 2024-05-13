@@ -24,7 +24,7 @@ body {
 }
 
 .card {
-  width: 450px;
+  width: 400px;
   padding: 10px;
   /*background-image: linear-gradient(to bottom, #e2e2e2, #ccc, #202020);*/
   border: 0.5px solid rgba(0, 42, 255, 0.992);
