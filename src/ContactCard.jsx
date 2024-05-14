@@ -5,9 +5,9 @@ import Image from './assets/Blogpic.jpeg'
 
 function ContactCard () {
   return (
-    <div class="card-container" style={{height: "300px", width: "300px", display: "flex", justifyContent: "center", marginLeft: "80px", marginTop: "20px"}}>
-        <Card>
-        <div className="photo" style={{ display: "flex", justifyContent: "center", alignItems: "center", marginLeft: "25px"}}>
+    <div class="card-container" style={{height: "300px", width: "320px", display: "flex", justifyContent: "center", marginLeft: "80px", marginTop: "20px"}}>
+        <Card style={{marginLeft: "60px"}}>
+        <div className="photo" style={{ display: "flex", justifyContent: "center", alignItems: "center", marginLeft: "10%"}}>
             <img src={Image} />
         </div>
         <ul>
