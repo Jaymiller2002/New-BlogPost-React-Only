@@ -114,7 +114,10 @@ body {
 }
 
 .card-container a:hover {
-  color: #2fa9ffea;
+  color: rgba(255, 77, 0, 0.75);
+  -webkit-text-shadow: 0px 0px 15px rgba(255, 77, 0, 0.75);
+  -moz-text-shadow: 0px 0px 15px rgba(255, 77, 0, .75);
+  text-shadow: 0px 0px 15px rgba(255, 77, 0, .75);                                            
   transform: scale(1.2);
 }
 
