@@ -38,7 +38,7 @@ function Blogpost1() {
               <p>Javascript because it's a whole new language for me so I just need to slow down a bit so I can understand what i'm doing.</p>
               <h2>What is one thing you would like to learn more about regarding JavaScript (JSON, Data Structures), Bootstrap, or Atomic Design?</h2>
               <p>I'd love to learn more about javascript and how to change anything in html</p>
-              <h2>What is your “Why”?</h2>
+              <h2>What is your “Y”?</h2>
               <p>I'd like to learn this since javascript is so powerful and there's a lot you can accomplish with it.</p>
             </>
           )}
