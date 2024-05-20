@@ -10,6 +10,7 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
+import Blogpost7 from './Blogpost7'
 import Blogpost6 from './Blogpost6'
 import Blogpost5 from './Blogpost5'
 import Blogpost4 from './Blogpost4'
@@ -70,6 +71,10 @@ const router = createBrowserRouter([
       {
         path: '/Blogpost6',
         element: <Blogpost6 />
+      },
+      {
+        path: '/Blogpost7',
+        element: <Blogpost7 />
       }
     ]
   }
