@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap"
 function Blogpost4 () {
   return (
     <div>
-        <Card>
+        <Card style={{left: "90px"}}>
             <h2>Do you think JavaScript Frameworks and Libraries are easy or hard to use? Why?</h2>
             <p>I Think it depends on the framework or library your using, I like React though because of its ease of use.</p>
             <h2>What Frameworks or Libraries are you interested in learning more about?</h2>

@@ -7,7 +7,7 @@ function Blogpost2 () {
   return (
     <div>
       <div>
-      <Card>
+      <Card style={{left: "90px"}}>
         <h2>Was your first week what you expected? Why? Why not?</h2>
         <p>It was more than I expected to be honest mainly cause all I've been working with before was HTML, CSS and a little Javascript. Being introduced to git, github and gitpod has honestly been really confusing and getting them to connect/work together just hasn't been working for me.</p>
         <h2>What are you excited or eager to learn more about?</h2>

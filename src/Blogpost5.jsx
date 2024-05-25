@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap"
 function Blogpost5() {
   return (
     <div>
-        <Card>
+        <Card style={{left: "90px"}}>
             <h2>What have you learned about CLIs? Do you think they are scary?</h2>
             <p>Yes, I haven't learned anything about them thus far but I am excited to get hands on
                 with something new.

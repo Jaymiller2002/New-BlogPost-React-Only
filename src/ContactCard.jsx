@@ -1,33 +1,32 @@
-import { Card } from "react-bootstrap"
-import { Link } from "react-router-dom"
-import Image from './assets/Blogpic.jpeg'
+import React from 'react';
+import { Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import Image from './assets/Blogpic.jpeg';
 
-
-function ContactCard () {
+const ContactCard = () => {
   return (
-    <div class="card-container" style={{height: "300px", width: "320px", display: "flex", justifyContent: "center", marginLeft: "80px", marginTop: "20px"}}>
-        <Card style={{marginLeft: "60px"}}>
-        <div className="photo" style={{ display: "flex", justifyContent: "center", alignItems: "center", marginLeft: "10%"}}>
-            <img src={Image} />
+    <div className="card-container d-flex justify-content-center mt-4">
+      <Card className="text-center p-4">
+        <div className="photo">
+          <img src={Image} alt="Profile" className="rounded-circle" style={{ width: '150px' }} />
         </div>
-        <ul>
-            <li><b>Jay Miller</b></li>
-            <li><b>Full-Stack Developer</b></li>
-        </ul>
-        <div class="icon-container">
-            <Link to="https://github.com/"><i className="fab fa-github-alt"></i></Link>
-            <Link to= "mailto:jay.miller02@icloud.com"><i className="fa-solid fa-envelope"></i></Link>
-            <Link to="tel:+8594758431"><i className="fa-solid fa-mobile-alt"></i></Link>
-            <Link to="https://www.linkedin.com/feed/"><i className="fa-brands fa-linkedin-in"></i></Link>
-            <Link to="https://www.instagram.com/"><i className="fa-brands fa-instagram"></i></Link>
-            <Link to="https://twitter.com/"><i className="fa-brands fa-x-twitter"></i></Link>
-            <Link to="https://www.youtube.com/"><i className="fa-brands fa-youtube"></i></Link>
-            <Link to="https://www.google.com/"><i className="fa-brands fa-google"></i></Link>
-              </div>
-        </Card>
+        <Card.Body>
+          <Card.Title className="mb-3">Jay Miller</Card.Title>
+          <Card.Text className="mb-3">Full-Stack Developer</Card.Text>
+          <div className="icon-container">
+            <Link to="https://github.com/"><i className="fab fa-github-alt mx-2"></i></Link>
+            <Link to="mailto:jay.miller02@icloud.com"><i className="fa-solid fa-envelope mx-2"></i></Link>
+            <Link to="tel:+8594758431"><i className="fa-solid fa-mobile-alt mx-2"></i></Link>
+            <Link to="https://www.linkedin.com/feed/"><i className="fa-brands fa-linkedin-in mx-2"></i></Link>
+            <Link to="https://www.instagram.com/"><i className="fa-brands fa-instagram mx-2"></i></Link>
+            <Link to="https://twitter.com/"><i className="fa-brands fa-twitter mx-2"></i></Link>
+            <Link to="https://www.youtube.com/"><i className="fa-brands fa-youtube mx-2"></i></Link>
+            <Link to="https://www.google.com/"><i className="fa-brands fa-google mx-2"></i></Link>
+          </div>
+        </Card.Body>
+      </Card>
     </div>
-  )
-}
+  );
+};
 
-
-export default ContactCard
+export default ContactCard;

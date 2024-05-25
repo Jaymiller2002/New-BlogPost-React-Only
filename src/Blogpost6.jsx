@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap"
 function Blogpost6() {
   return (
     <div>
-        <Card>
+        <Card style={{left: "90px"}}>
             <h2>Now that you are halfway through bootcamp, 
                 what has been the biggest hurdle that you have gone past? 
                 What do you think is going to be the next biggest thing to power through?</h2>

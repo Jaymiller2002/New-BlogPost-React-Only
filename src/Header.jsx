@@ -12,6 +12,7 @@ function Header() {
           <button><Link to="/Blogpost5">Entry 5</Link></button>
           <button><Link to="/Blogpost6">Entry 6</Link></button>
           <button><Link to="/Blogpost7">Entry 7</Link></button>
+          <button><Link to="/Blogpost8">Entry 8</Link></button>
         </div>
     </div>
   )

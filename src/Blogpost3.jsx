@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap"
 function Blogpost3 () {
   return (
     <div>
-        <Card>
+        <Card style={{left: "90px"}}>
         <h2>The Power of Pseudocoding: Why Every Developer Should Master It</h2>
         <p>In the fast-paced world of software development, 
             where lines of code translate into revolutionary applications and groundbreaking solutions, 
