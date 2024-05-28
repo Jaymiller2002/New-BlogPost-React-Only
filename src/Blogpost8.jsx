@@ -9,7 +9,7 @@ function Blogpost8() {
             <h2>What companies or people (local or not) would you like to hear talk during a Bootcamp lunch and learn?</h2>
             <p>Any company or companies that specialize in front end work. I'm not a huge fan of the backend</p>
             <h2>After having built your first full-stack application, what things in your repertoire are a sticking point for you? Were you able to reconnect your React Restaurant to your Backend Bistro code? If so, what was that like, and if not, what hurdles did you need to jump?</h2>
-            <p>Thw things that were stacking points for me was the front end because everything was much easier and you can see your changes in real time. Yes, I was able to connect my backend to my front end but I couldn't figure out how to send information back to my backend from the frontend.</p>
+            <p>The things that were stacking points for me was the front end because everything was much easier and you can see your changes in real time. Yes, I was able to connect my backend to my front end but I couldn't figure out how to send information back to my backend from the frontend.</p>
         </Card>
     </div>
   )
