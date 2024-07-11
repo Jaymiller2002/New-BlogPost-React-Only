@@ -1,44 +1,34 @@
 html {
-  height: 100vh;
+  height: 100%;
 }
+
 body {
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background: black;
-  /*background: linear-gradient(43deg, rgb(165, 55, 18) 35%, rgb(31, 153, 177) 35%, rgb(54, 147, 163) 77%, rgb(162, 74, 41) 77%, rgb(191, 63, 20) 84%, rgb(32, 168, 196) 84%);*/
-  background-image: url(https://images.nightcafe.studio/jobs/bGRIDxkSIgGRZcv2ww93/bGRIDxkSIgGRZcv2ww93_2x.jpg?tr=w-1600,c-at_max);
-  background-repeat: no-repeat;
-  background-size: cover;
+  min-height: 100vh;
+  background: black url(https://images.nightcafe.studio/jobs/bGRIDxkSIgGRZcv2ww93/bGRIDxkSIgGRZcv2ww93_2x.jpg?tr=w-1600,c-at_max) no-repeat center/cover;
 }
+
 #root {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   flex-direction: column;
   justify-content: center;
-}
-#page-content {
-  flex-grow: 2;
 }
 
 .card {
   width: 400px;
   padding: 10px;
-  /*background-image: linear-gradient(to bottom, #e2e2e2, #ccc, #202020);*/
   border: 0.5px solid rgba(0, 42, 255, 0.992);
   border-radius: 8px;
   box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0px 0px 15px 5px rgba(255, 238, 0, 0.892);
-  -moz-box-shadow: 0px 0px 15px 5px rgba(255, 234, 0, 0.892);
-  box-shadow: 0px 0px 15px 5px rgba(0, 42, 255, 0.992);
   height: 450px;
   overflow-y: auto;
-  top: 15px;
-  background: linear-gradient(to bottom right, #1d5ca9f4, #0000, #d25b33e1 );
   margin-top: 40px;
   margin-left: 100px;
+  background: linear-gradient(to bottom right, #1d5ca9f4, #0000, #d25b33e1);
 }
 
 .card h2 {
@@ -51,14 +41,14 @@ body {
 
 .card p {
   font-size: 14px;
-  color: rgb(255, 255, 255);
+  color: white;
   margin: 15px;
   padding: 5px;
 }
 
 .card p:hover {
   cursor: pointer;
-  color: bold rgb(255, 255, 255);
+  font-weight: bold;
 }
 
 .card img {
@@ -73,25 +63,19 @@ body {
   margin-bottom: 5px;
 }
 
-.rounded-square {
-  margin-right: 10px;
-  border-radius: 8px;
-}
-
 .icon-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
+  gap: none;
   justify-content: center;
   align-items: center;
-  gap: none;
   padding-top: 20px;
 }
 
 .icon-container a {
-  font-size: 40px; 
+  font-size: 40px;
+  color: white;
 }
-
 
 .card-container ul,
 .card-container li,
@@ -99,7 +83,7 @@ body {
   text-align: center;
   text-decoration: none;
   list-style: none;
-  color: rgb(255, 252, 252);
+  color: white;
   margin-top: 20px;
   display: block;
 }
@@ -115,33 +99,28 @@ body {
 
 .card-container a:hover {
   color: rgba(20, 231, 104, 0.85);
-  -webkit-text-shadow: 0px 0px 15px rgba(20, 231, 104, 0.85);
-  -moz-text-shadow: 0px 0px 15px rgba(20, 231, 104, 0.85);
-  text-shadow: 0px 0px 15px rgba(20, 231, 104, 0.85);                                            
+  text-shadow: 0px 0px 15px rgba(20, 231, 104, 0.85);
   transform: scale(1.2);
 }
 
-.button-container {
+.header-button-container {
   display: flex;
   justify-content: center;
-}
-
-.button-container button {
-  margin-right: 10px;
+  margin-top: 40px;
 }
 
 button {
   background-image: linear-gradient(to bottom right, #256dc6f4, rgb(202, 97, 48));
   border: 0.5px solid rgba(0, 42, 255, 0.33);
   border-radius: 5px;
-  margin-top: 40px;
   padding: 5px;
   box-shadow: 0px 0px 15px 5px rgba(0, 42, 255, 0.66);
+  margin-right: 10px;
 }
 
 button a {
   text-decoration: none;
-  color: rgb(255, 252, 252);
+  color: white;
 }
 
 button:hover {
@@ -152,76 +131,25 @@ button:hover {
   filter: invert(200%);
 }
 
-/* iPhone SE (first generation) */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) {
-  body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: black;
-  }
+/* Media Queries for Responsive Design */
 
-  #root {
-    display: flex;
-    height: 100vh;
-    flex-direction: column;
-    justify-content: center;
-  }
-
+@media only screen and (max-width: 768px) {
   .card {
     width: 90%;
     margin-left: 5%;
     margin-top: 5vh;
-    padding: 10px;
-    border: 0.5px solid rgba(0, 42, 255, 0.992);
-    border-radius: 8px;
-    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0px 0px 15px 5px rgba(255, 238, 0, 0.892);
-    -moz-box-shadow: 0px 0px 15px 5px rgba(255, 234, 0, 0.892);
-    box-shadow: 0px 0px 15px 5px rgba(0, 42, 255, 0.992);
-    height: 450px;
-    overflow-y: auto;
-    top: 15px;
-    background: linear-gradient(to bottom right, #1d5ca9f4, #0000, #d25b33e1);
   }
 
   .card h2 {
     font-size: 16px;
-    font-weight: 600;
-    color: white;
-    margin-top: 10px;
-    padding: 5px;
   }
 
   .card p {
     font-size: 12px;
-    color: rgb(255, 255, 255);
-    margin: 15px;
-    padding: 5px;
-  }
-
-  .card p:hover {
-    cursor: pointer;
-    color: bold rgb(255, 255, 255);
-  }
-
-  .card img {
-    height: 100px;
-    width: 100px;
-    position: sticky;
-    transition: all 0.4s ease-in-out;
-  }
-
-  .card img:hover {
-    transform: scale(1.2);
-    margin-bottom: 5px;
   }
 }
 
-/* iPhone 6, iPhone 6S, iPhone 7, iPhone 8 */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
+@media only screen and (max-width: 992px) {
   .card {
     width: 80%;
     margin-left: 10%;
@@ -237,8 +165,7 @@ button:hover {
   }
 }
 
-/* iPhone 6 Plus, iPhone 6S Plus, iPhone 7 Plus, iPhone 8 Plus */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (min-width: 1200px) {
   .card {
     width: 70%;
     margin-left: 15%;
@@ -251,56 +178,5 @@ button:hover {
 
   .card p {
     font-size: 16px;
-  }
-}
-
-/* iPhone X, iPhone XS, iPhone 11 Pro */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
-  .card {
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 5vh;
-  }
-
-  .card h2 {
-    font-size: 22px;
-  }
-
-  .card p {
-    font-size: 18px;
-  }
-}
-
-/* iPhone XR, iPhone 11 */
-@media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-device-pixel-ratio: 2) {
-  .card {
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 5vh;
-  }
-
-  .card h2 {
-    font-size: 22px;
-  }
-
-  .card p {
-    font-size: 18px;
-  }
-}
-
-/* iPhone XS Max, iPhone 11 Pro Max */
-@media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-device-pixel-ratio: 3) {
-  .card {
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 5vh;
-  }
-
-  .card h2 {
-    font-size: 24px;
-  }
-
-  .card p {
-    font-size: 20px;
   }
 }

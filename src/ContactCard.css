@@ -1,0 +1,39 @@
+/* Card Container Styles */
+.card-container {
+    background-color: #f8f9fa transparent;
+    padding: 20px;
+  }
+  
+  /* Card Styles */
+  .contact-card {
+    background-color: #343a40;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+  }
+  
+  /* Profile Photo Styles */
+  .photo {
+    margin-bottom: 20px;
+  }
+  
+  .photo img {
+    border: 3px solid #ffc107;
+  }
+  
+  /* Icon Container Styles */
+  .icon-container {
+    margin-top: 20px;
+  }
+  
+  .icon-container a {
+    color: white;
+    font-size: 24px;
+  }
+  
+  .icon-container a:hover {
+    color: #ffc107;
+  }
+  

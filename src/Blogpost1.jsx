@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Card, Button, Container, Row, Col } from 'react-bootstrap';
+import './Blogpost1.css';
 
 const Blogpost1 = () => {
   const [showContent, setShowContent] = useState(false);
@@ -12,10 +13,10 @@ const Blogpost1 = () => {
     <Container>
       <Row className="justify-content-center">
         <Col xs={12} md={8}>
-          <Card className="mt-5">
+          <Card className="mt-5 blog-card">
             <Card.Body>
               <Title />
-              <Button onClick={handleButtonClick} className="mt-3">
+              <Button onClick={handleButtonClick} className="mt-3 toggle-button">
                 {showContent ? 'Read Less' : 'Read More'}
               </Button>
               {showContent && <Content />}
@@ -29,7 +30,7 @@ const Blogpost1 = () => {
 
 const Title = () => {
   return (
-    <h1 style={{ color: "white", textAlign: 'center' }}>
+    <h1 className="title">
       Jay Miller's Blog Journey
     </h1>
   );
@@ -37,7 +38,7 @@ const Title = () => {
 
 const Content = () => {
   return (
-    <>
+    <div className="content">
       <h2>What are your thoughts about the roles HTML, CSS, and JavaScript play in the process of rendering content and providing user experience?</h2>
       <p>I find it extremely cool to see everything finally come together to make a fully functional page or website.</p>
       <h2>What are your thoughts on pseudocoding?</h2>
@@ -54,8 +55,9 @@ const Content = () => {
       <p>I'd love to learn more about javascript and how to change anything in html</p>
       <h2>What is your “Y”?</h2>
       <p>I'd like to learn this since javascript is so powerful and there's a lot you can accomplish with it.</p>
-    </>
+    </div>
   );
 };
 
 export default Blogpost1;
+

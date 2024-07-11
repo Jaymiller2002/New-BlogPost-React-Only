@@ -2,11 +2,12 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Image from './assets/Blogpic.jpeg';
+import './ContactCard.css';
 
 const ContactCard = () => {
   return (
     <div className="card-container d-flex justify-content-center mt-4">
-      <Card className="text-center p-4">
+      <Card className="text-center p-4 contact-card">
         <div className="photo">
           <img src={Image} alt="Profile" className="rounded-circle" style={{ width: '150px' }} />
         </div>
@@ -30,3 +31,4 @@ const ContactCard = () => {
 };
 
 export default ContactCard;
+
